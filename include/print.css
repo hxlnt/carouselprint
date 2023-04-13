@@ -1,0 +1,38 @@
+.entry {
+    break-inside: avoid;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid gray;
+    font-family: 'Fira Code', monospace;
+    margin-left: .25in;
+}
+
+.entry p, ul, ol, li {
+    break-inside: avoid;
+}
+
+.entry h1:first-of-type {
+    break-before: page;
+    color: gray;
+    font-size: 1.75rem;
+    margin-left: -0.25in;
+    line-height: 2rem;
+}
+
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.25rem;
+}
+
+h3 { 
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+p, div, a, li {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
