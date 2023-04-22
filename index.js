@@ -53,7 +53,8 @@ validMdFiles.forEach((file) => {
         fs.appendFileSync(concatMd, fs.readFileSync(entry).toString()) 
         fs.appendFileSync(concatMd, '\r\n\r\n</div>') 
     }
-})
+});
+console.log(`Creating PDF...`)
 
 mdpdf.convert(pdfOptions).then((pdfPath) => {
     console.log('PDF saved to ', pdfPath);
