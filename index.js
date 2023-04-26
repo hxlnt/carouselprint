@@ -13,16 +13,16 @@ const pdfOptions = {
     styles: 'include/print.css',
     footer: 'include/footer-temp.html',
     header: 'include/header.html',
-    debug: 'include/debug.html',
+    debug: path.join(topicPath, topic + '.html'),
     pdf: {
       format: 'letter',
       header: {height: '0px'},
       footer: { height: '.5in' },
       border: {
-        top: '.5in',
+        top: '.75in',
         left: '.75in',
         bottom: '.75in',
-        right: '1in'
+        right: '.75in'
         }
     }
 };
