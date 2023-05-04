@@ -17,7 +17,7 @@ const pdfOptions = {
     pdf: {
       format: 'letter',
       header: {height: '0px'},
-      footer: { height: '.5in' },
+      footer: { height: '.75in' },
       border: {
         top: '.75in',
         left: '.75in',
