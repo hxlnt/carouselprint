@@ -2,13 +2,13 @@
 @page :left{ 
     /* margin-left: 20px;
     margin-right: 104px; */
-    margin-left: -10px;
-    margin-right: 54px;
+    margin-left: 64px;
+    margin-right: 100px;
 }
   
   /* target right (odd-numbered) pages only */
   @page :right { 
-    margin-left: 40px; 
+    margin-left: 100px; 
     margin-right: 64px;
 }
 
@@ -16,9 +16,10 @@
     break-inside: avoid;
     margin-bottom: 30px;
     padding-bottom: 30px;
+    /* padding-top: 30px; */
     /* border-bottom: 1px dashed black; */
     font-family: 'Courier New', 'Tahyp-rahy-ter 22', monospace;
-    margin-left: 60px;
+    /* margin-left: 60px; */
 }
 
 .entry p, ul, ol, li {
@@ -35,8 +36,9 @@ entry:after {
 h1, h2, h3, h4, h5, h6 {
     font-size: 20px;
     line-height: 30px;
-    font-family: "Helvetica", "Arial", sans-serif;
-    margin-top: 30px;
+    /* font-family: "Helvetica", "Arial", sans-serif; */
+    font-family: 'Courier New', 'Tahyp-rahy-ter 22', monospace;
+    /* margin-top: 30px; */
     break-inside: avoid;
     /* margin-left: -80px; */
     font-weight: bolder;
